@@ -2,20 +2,16 @@
 
 ## Getting started
 
-`$ npm install react-native-laserscanner --save`
-
-### Mostly automatic installation
-
-`$ react-native link react-native-laserscanner`
+`$ npm install @infonl/react-native-laserscanner --save`
 
 ## Usage
 
 ```javascript
-import Scanner from "react-native-laserscanner";
+import Scanner from "@infonl/react-native-laserscanner";
 
-// TODO: What to do with the module?
-const code = await Scanner.read();
+(async function () {
+  const code = await Scanner.scan();
 
-// for cancel
-await Scanner.stop();
+  await Scanner.stop();
+})();
 ```

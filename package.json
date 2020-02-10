@@ -1,28 +1,30 @@
 {
-  "name": "react-native-laserscanner",
+  "name": "@infonl/react-native-laserscanner",
   "title": "React Native Laserscanner",
   "version": "0.1.0",
-  "description": "TODO",
+  "description": "QR-code/barcode reader using the laser scanner on Famoco devices",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/infonl/react-native-laserscanner#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://hbtb@bitbucket.org/infonl/react-native-famoco-laserscanner.git",
-    "baseUrl": "https://hbtb@bitbucket.org/infonl/react-native-famoco-laserscanner.git"
+    "url": "https://github.com/infonl/react-native-laserscanner.git"
   },
+  "bugs": "https://github.com/infonl/react-native-laserscanner/issues",
   "keywords": [
     "react-native",
-    "Famoco PX320",
-    "laser qrcode scanner",
-    "laser barcode scanner"
+    "famoco",
+    "qrcode",
+    "barcode",
+    "scanner"
   ],
-  "author": {
-    "name": "Hossein Babaei",
-    "email": "hossein.babaei@info.nl"
-  },
-  "license": "MIT",
+  "author": "Hossein Babaei <hossein.babaei@info.nl>",
+  "contributors": [
+    "Stefan Mirck <stefan@info.nl>"
+  ],
+  "license": "ISC",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
