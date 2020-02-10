@@ -1,0 +1,36 @@
+{
+  "name": "react-native-laserscanner",
+  "title": "React Native Laserscanner",
+  "version": "0.1.0",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hbtb@bitbucket.org/infonl/react-native-famoco-laserscanner.git",
+    "baseUrl": "https://hbtb@bitbucket.org/infonl/react-native-famoco-laserscanner.git"
+  },
+  "keywords": [
+    "react-native",
+    "Famoco PX320",
+    "laser qrcode scanner",
+    "laser barcode scanner"
+  ],
+  "author": {
+    "name": "Hossein Babaei",
+    "email": "hossein.babaei@info.nl"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
+  }
+}
